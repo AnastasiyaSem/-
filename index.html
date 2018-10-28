@@ -5,20 +5,24 @@
 </head>
 <body>
 	<header class="main-header">
-		<section class="logo-navigation">
-		<img src="http://placehold.it/150x100" class="logo-header">
-		<nav class="header-navigation">
-			<a class="nav-link">Студия</a>
-			<a class="nav-link">Клиенты</a>
-			<a class="nav-link">Магазин</a>
-			<a class="nav-link">Контакты</a>				
+		<a class="main-header-logo">
+			<img src="http://placehold.it/150x100" class="logo-header" alt="Логотип Нёрдз" width="160" height="65">
+		</a>
+		<nav class="main-navigation">
+			<ul class="site-navigation">
+				<li><a href="info.html">Студия</a></li>
+				<li><a href="clients.html">Клиенты</a></li>
+				<li><a href="shop.html">Магазин</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+			</ul>				
 		</nav>
-		<a class="link-search">Корзина</a>
-		</section>
+			<ul class="user-navigation">
+				<li class="login-link">Корзинка</li>
+			</ul>
 		<h1 class="title-header">Магазин готовых шаблонов</h1>
 	</header>
 
-	<main>
+	<main class="container">
 		<section class="section-form">
 			<form class="filter" method="get" action="https://echo.htmlacademy.ru">
 				<fieldset>
@@ -78,27 +82,33 @@
 				<form>
 					<fieldset class="catalog" method="get" action="https://echo.htmlacademy.ru">
 							<legend>Сортировать:</legend>
-							<a href="#">По цене</a>
-							<a href="#">По типу</a>
-							<a href="#">По названию</a>
-							<a href="#"><span>Вверх</span></a>
-							<a href="#"><span>Вниз</span></a>
+								<ul>
+									<li><a href="#">По цене</a></li>
+									<li><a href="#">По типу</a></li>
+									<li><a href="#">По названию</a></li>
+									<li><a href="#"><span>Вверх</span></a></li>
+									<li><a href="#"><span>Вниз</span></a></li>
+								</ul>
 					</fieldset>
 				</form>
 			</div>
 			<div class="catalog-img">
-				<img src="http://placehold.it/150x100">
-				<img src="http://placehold.it/150x100">
-				<img src="http://placehold.it/150x100">
-				<img src="http://placehold.it/150x100">
-				<img src="http://placehold.it/150x100">
-				<img src="http://placehold.it/150x100">
+				<ul>
+					<li><a href="#"><img src="http://placehold.it/150x100"></a></li>
+					<li><a href="#"><img src="http://placehold.it/150x100"></a></li>
+					<li><a href="#"><img src="http://placehold.it/150x100"></a></li>
+					<li><a href="#"><img src="http://placehold.it/150x100"></a></li>
+					<li><a href="#"><img src="http://placehold.it/150x100"></a></li>
+					<li><a href="#"><img src="http://placehold.it/150x100"></a></li>
+				</ul>
 			</div>
 			<div class="switch">
-				<button>1</button>
-				<button>2</button>
-				<button>3</button>
-				<button>Следующая</button>
+				<ul>
+					<li><a href="#"><button>1</button></a></li>
+					<li><a href="#"><button>2</button></a></li>
+					<li><a href="#"><button>3</button></a></li>
+					<li><a href="#"><button>Следующая</button></a></li>
+				</ul>
 			</div>
 		</section>
 	</main>
